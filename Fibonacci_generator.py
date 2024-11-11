@@ -170,6 +170,14 @@ if banana:
                 height: 100vh;
             }}
             </style>
+             /* Media query for mobile devices */
+            @media (max-width: 768px) {{
+                .stApp {{
+                    background-size: contain; /* Keeps the entire image within view */
+                    background-position: top;
+                    height: auto; /* Adjusts height based on content */
+        }}
+    }}
             """,
         unsafe_allow_html=True
     )
