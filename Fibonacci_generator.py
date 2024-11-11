@@ -169,7 +169,7 @@ if banana:
                 background-position: center;
                 height: 100vh;
             }}
-            </style>
+            
              /* Media query for mobile devices */
             @media (max-width: 768px) {{
                 .stApp {{
@@ -178,6 +178,7 @@ if banana:
                     height: auto; /* Adjusts height based on content */
         }}
     }}
+    </style>
             """,
         unsafe_allow_html=True
     )
